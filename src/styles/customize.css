@@ -1,0 +1,145 @@
+/* normalized */
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    background-size: cover;
+    overflow-x: hidden;
+    background-color: #191d22;
+}
+.navbar-customize {
+    position: fixed;  
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: rgba(84, 82, 82, 0.7); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: #fff;
+}
+.navbar-customize a {
+    color: #ffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.intro-section {
+    background-image: url('/img/bacground/vecteezy_abstract-futuristic-wave-science-technology-banner-with_17041217.svg');
+    background-size: cover;
+    padding: 60px;
+}
+.intro-section ul li {
+    list-style: none;
+    margin-top: 30px;
+}
+.intro-section ul li a .icons {
+    width: 40px;
+    border-radius: 12px;
+}
+.intro-section .container h1, .intro-section .container h2 {
+    padding-top: 12px;
+    font-size: 200;
+    color: #ffff;
+}
+.intro-section .container h1 span, .intro-section .container h2 span {
+    color: #8ACCD5;
+}
+.about-section {
+    padding: 130px;
+    background-color: #191d22;
+}
+.about-section .d-flex img {
+    width: 300px;
+    height: auto;
+    border: none;
+    border-radius: 12px;
+    box-shadow:
+      0 0 0 6px #939e9d,
+      0 0 10px rgba(0, 255, 255, 0.182),
+      0 0 20px rgba(0, 255, 255, 0.4);
+    background: #45575e;
+    outline: 3px solid #00f7ff25;
+    outline-offset: -10px;
+    transition: transform 0.2s ease;
+}
+.about-section .d-flex img:hover {
+    transform: scale(1.05);
+}
+section .justify-content-around .col-md-6 h3, section .justify-content-around .col-md-6 p {
+    color: #ffffff;
+}
+section .justify-content-around .col-md-6 h3 span, section .justify-content-around .col-md-6 p span {
+    color: #94d7e0;
+}
+.col-md-6 .mt-4 div h4, .col-md-6 .mt-4 div li {
+    color: #ffffff;
+}
+.justify-content-around .active-btn {
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+    font-weight: bold;
+    border-width: 2px;
+}
+.skills-section {
+    background-image: url('/img/bacground/vecteezy_abstract-futuristic-wave-science-technology-banner-with_17041217.svg');
+    height: 570px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.skills-section h5 {
+    padding: 40px;
+}
+.skills-section ul li {
+    list-style: none;
+    color: #fff;
+}
+.skills-section ul {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.skills-section li img {
+    width: 55px;
+    display: block;
+    position: relative;
+    z-index: 1; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.skills-section li img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+.project-section {
+    background-color: #191d22;
+}
+.contact-section {
+    background-image: url('/img/bacground/vecteezy_pixel-world-globe-map-vector_169839.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: block;
+    padding: 90px;
+    filter: brightness(0.8);
+}
+footer div ul {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+footer div ul li {
+    list-style: none;
+}
+footer div ul li a img {
+    width: 40px;
+    margin-left: 35px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+}
+
+
+
+

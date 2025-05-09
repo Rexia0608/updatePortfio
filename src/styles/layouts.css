@@ -1,0 +1,20 @@
+.intro-section ul {
+    display: block;
+    height: 200px;
+    position: relative;
+}
+.intro-section .container {
+    padding: 80px;
+    max-width: 56%;
+}
+.intro-section .avatar {
+    top: 60px;
+    left: 48px;
+    width: 280px;
+    max-height: max-content;
+    position: relative;
+}
+.project-section {
+    padding: 70px;
+    position: relative;
+}
