@@ -15,7 +15,7 @@ const SectionContact = () => {
                     <li key="contact-phone">
                         <h6 className="text-light fs-5">
                                 <span className="text-info fs-4">Phone: </span>
-                                +639914873606
+                                0976-453-9803
                         </h6>
                     </li>
                     <li key="contact-email">
