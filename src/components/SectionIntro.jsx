@@ -80,7 +80,8 @@ const SectionIntro = () => {
             Aspiring to be a {'<'}<span ref={typedRef} className="text-info"></span>{'/>'}
           </h2>
           <div className="mt-3">
-            <a href="/resume/resume.pdf" download className="btn btn-outline-info ms-2">Download CV</a>
+            <a href="/resume/resume.pdf" download className="btn btn-outline-info ms-2">Download Resume</a>
+            <a href="/resume/CV.pdf" download className="btn btn-outline-info ms-2">Download CV</a>
           </div>
         </motion.div>
 
