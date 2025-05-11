@@ -28,7 +28,7 @@ const Footer = () => {
                 </ul>
                 <p className="text-center text-light">
                     Designed & Developed <span className="text-info">by John Rey Gomez Cejas </span>
-                    &copy; {year} 2025 All rights reserved.
+                    &copy; {year} All rights reserved.
                 </p>
             </div>
         </footer>
